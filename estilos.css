@@ -165,6 +165,18 @@ a:active {
   text-shadow: 2px 2px #000;
 }
 
+#tags span {
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-1:active,
+.tag-2:active,
+.tag-3:active {
+  top: -2px;
+  left: -2px;
+}
+
 .tag-1,
 .tag-2,
 .tag-3 {
