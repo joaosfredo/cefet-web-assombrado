@@ -197,7 +197,13 @@ a:active {
   font-size: 150%;
 }
 
-
+.novidade::before {
+  content: "Novidade!";
+  background: green; 
+  border-radius: 5px;
+  padding: 6px;
+  display: inline-block;
+}
 
 
 
