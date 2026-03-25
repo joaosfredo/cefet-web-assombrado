@@ -161,6 +161,8 @@ a:active {
 
 .boo {
   opacity: 0.01;
+  text-align: center;
+  padding: 0% 10%; 
 }
 
 .boo:hover {
@@ -170,6 +172,8 @@ a:active {
 
 /* --- Principal >> Nuvem de tags --- */
 #tags {
+  position: sticky;
+  top: 0;
   float: right;
   width: 300px;
   padding: 15px;
