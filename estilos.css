@@ -51,11 +51,21 @@ a:active {
 
 #cabecalho ul {
   background-color: rgba(0, 204, 147, 0.53);
+  padding-left: 0%;
+  list-style-type: none;
+}
+
+#cabecalho li {
+  display: inline-block;
+  padding-right: 2.5%;
 }
 
 #cabecalho a {
   text-decoration: none;
   text-shadow: 1px 1px black;
+  display: inline-block;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #menu-de-navegacao ul {
